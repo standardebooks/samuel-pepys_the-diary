@@ -15,6 +15,10 @@ abbr.compass{
 	white-space: nowrap;
 }
 
+abbr.era{
+	font-variant: all-small-caps;
+}
+
 abbr.currency{
 	font-style: italic;
 }
@@ -49,12 +53,14 @@ footer{
 }
 
 [epub|type~="z3998:verse"] p,
+[epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:verse"] p > span,
+[epub|type~="z3998:poem"] p > span,
 [epub|type~="z3998:song"] p > span{
 	display: block;
 	text-indent: -1em;
@@ -62,6 +68,7 @@ footer{
 }
 
 [epub|type~="z3998:verse"] p > span + br,
+[epub|type~="z3998:poem"] p > span + br,
 [epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
