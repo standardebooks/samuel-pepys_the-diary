@@ -37,7 +37,7 @@ footer{
 	font-variant: small-caps;
 }
 
-[epub|type~="z3998:letter"] [epub|type~="se:letter.dateline"]{
+[epub|type~="z3998:letter"] header [epub|type~="se:letter.dateline"]{
 	text-align: left;
 	font-style: italic;
 }
