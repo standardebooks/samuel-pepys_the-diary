@@ -6,6 +6,10 @@ b{
 	font-variant: small-caps;
 }
 
+i em{
+	font-style: normal;
+}
+
 sup{
 	line-height: 1;
 }
