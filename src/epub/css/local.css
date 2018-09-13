@@ -41,6 +41,26 @@ footer{
 	font-variant: small-caps;
 }
 
+table{
+	width: 100%;
+	margin: 1em 0;
+}
+
+td{
+	padding: .25em 1em .25em 0;
+}
+
+td:last-child{
+	padding-right: 0;
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+}
+
+tbody + tbody > tr:first-child > td:last-child,
+.subtotal td:last-child{
+	border-top: 1px solid;
+}
+
 [epub|type~="z3998:letter"] header [epub|type~="se:letter.dateline"]{
 	text-align: left;
 	font-style: italic;
