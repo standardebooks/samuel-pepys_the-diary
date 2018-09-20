@@ -1,11 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-b{
-	font-weight: normal;
-	font-variant: small-caps;
-}
-
 i em{
 	font-style: normal;
 }
@@ -29,7 +24,6 @@ abbr.currency{
 
 blockquote header{
 	margin-bottom: 1em;
-	text-align: center;
 }
 
 footer{
@@ -95,6 +89,16 @@ tbody + tbody > tr:first-child > td:last-child,
 [epub|type~="z3998:poem"] p > span + br,
 [epub|type~="z3998:song"] p > span + br{
 	display: none;
+}
+
+p span.i1{
+	text-indent: -1em;
+	padding-left: 2em;
+}
+
+p span.i3{
+	text-indent: -1em;
+	padding-left: 4em;
 }
 
 [epub|type~="z3998:drama"]{
