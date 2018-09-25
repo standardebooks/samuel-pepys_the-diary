@@ -40,7 +40,7 @@
 		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/4200</meta>
 		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/4200</meta>
 		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/4200</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description"> LONGDESCRIPTION </meta>
@@ -58,11 +58,10 @@
 		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">EBOOKWIKILINK</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Samuel_Pepys#The_diary</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/samuel-pepys_the-diary-of-samuel-pepys</meta>
 		<dc:creator id="author">Samuel Pepys</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Pepys, Samuel</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Samuel_Pepys</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79018796</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
@@ -71,12 +70,27 @@
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/John_Hayls</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/nr94041870</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
+		<dc:contributor id="editor-1">Henry B. Wheatley</dc:contributor>
+		<meta property="file-as" refines="#editor-1">Wheatley, Henry B.</meta>
+		<meta property="se:name.person.full-name" refines="#editor-1">Henry Benjamin Wheatley</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor-1">https://en.wikipedia.org/wiki/Henry_B._Wheatley</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor-1">https://id.loc.gov/authorities/names/n87860971</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">aft</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">aui</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">trc</meta>
+		<dc:contributor id="annotator-1">Richard Griffin</dc:contributor>
+		<meta property="file-as" refines="#annotator-1">Griffin, Richard</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#annotator-1">https://en.wikipedia.org/wiki/Richard_Griffin,_3rd_Baron_Braybrooke</meta>
+		<meta property="se:url.authority.nacoaf" refines="#annotator-1">https://id.loc.gov/authorities/names/n50014973</meta>
+		<meta property="role" refines="#annotator-1" scheme="marc:relators">ann</meta>
 		<dc:contributor id="transcriber-1">David Widger</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Widger, David</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">Robin Whittleton</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Whittleton, Robin</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://www.robinwhittleton.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
