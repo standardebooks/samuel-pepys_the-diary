@@ -35,6 +35,10 @@ footer{
 	font-variant: small-caps;
 }
 
+article[epub|type~="z3998:diary-entry"] + article[epub|type~="z3998:diary-entry"]{
+	margin-top: .5em;
+}
+
 table{
 	width: 100%;
 	margin: 1em 0;
