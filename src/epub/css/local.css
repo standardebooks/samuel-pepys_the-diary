@@ -5,7 +5,8 @@ i em{
 	font-style: normal;
 }
 
-sup{
+sup,
+sub{
 	line-height: 1;
 }
 
