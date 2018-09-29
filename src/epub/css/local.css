@@ -138,3 +138,28 @@ p span.i3{
 	width: 20%;
 	font-variant: all-small-caps;
 }
+
+/* Monument, in the introduction */
+.monument p{
+	text-align: center;
+	text-indent: 0;
+}
+
+.monument p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+.monument  p > span + br{
+	display: none;
+}
+
+.family-tree{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.heraldry{
+	margin-top: .5em;
+}
