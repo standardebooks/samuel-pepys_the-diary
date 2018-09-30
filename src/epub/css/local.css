@@ -60,7 +60,7 @@ tbody + tbody > tr:first-child > td:last-child,
 	border-top: 1px solid;
 }
 
-[epub|type~="z3998:letter"] header [epub|type~="se:letter.dateline"]{
+blockquote header [epub|type~="se:letter.dateline"]{
 	text-align: left;
 	font-style: italic;
 }
