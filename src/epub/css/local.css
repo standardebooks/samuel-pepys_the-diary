@@ -143,6 +143,10 @@ p span.i3{
 	font-variant: all-small-caps;
 }
 
+[epub|type~="rearnote"] ol{
+	list-style-type: upper-roman;
+}
+
 /* Monument, in the introduction */
 .monument p{
 	text-align: center;
