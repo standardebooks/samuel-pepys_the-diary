@@ -45,26 +45,6 @@ article[epub|type~="z3998:diary-entry"] + article[epub|type~="z3998:diary-entry"
 	margin-top: .5em;
 }
 
-table{
-	width: 100%;
-	margin: 1em 0;
-}
-
-td{
-	padding: .25em 1em .25em 0;
-}
-
-td:last-child{
-	padding-right: 0;
-	text-align: right;
-	font-variant-numeric: tabular-nums;
-}
-
-tbody + tbody > tr:first-child > td:last-child,
-.subtotal td:last-child{
-	border-top: 1px solid;
-}
-
 blockquote header [epub|type~="se:letter.dateline"]{
 	text-align: left;
 	font-style: italic;
@@ -171,4 +151,26 @@ p span.i3{
 
 .heraldry{
 	margin-top: .5em;
+}
+
+/* Ledger, in chapter 82 */
+
+.ledger{
+	width: 100%;
+	margin: 1em 0;
+}
+
+.ledger td{
+	padding: .25em 1em .25em 0;
+}
+
+.ledger td:last-child{
+	padding-right: 0;
+	text-align: right;
+	font-variant-numeric: tabular-nums;
+}
+
+.ledger tbody + tbody > tr:first-child > td:last-child,
+.ledger .subtotal td:last-child{
+	border-top: 1px solid;
 }
