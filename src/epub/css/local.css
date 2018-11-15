@@ -138,19 +138,19 @@ p span.i3{
 	list-style-type: upper-roman;
 }
 
-/* Monument, in the introduction */
-.monument p{
+/* Epitaph, in the introduction and endnotes */
+.epitaph p{
 	text-align: center;
 	text-indent: 0;
 }
 
-.monument p > span{
+.epitaph p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
 }
 
-.monument  p > span + br{
+.epitaph  p > span + br{
 	display: none;
 }
 
