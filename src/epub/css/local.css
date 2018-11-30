@@ -11,6 +11,26 @@ sub{
 	font-size: .75em;
 }
 
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+
+figcaption{
+	font-variant: small-caps;
+	margin: 0 0 .5em;
+}
+
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure + p{
+	text-indent: 0;
+}
+
 abbr.name,
 abbr.compass{
 	white-space: nowrap;
