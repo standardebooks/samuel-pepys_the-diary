@@ -86,20 +86,23 @@ blockquote header [epub|type~="se:letter.dateline"]{
 
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:poem"] p,
-[epub|type~="z3998:song"] p{
+[epub|type~="z3998:song"] p,
+[epub|type~="z3998:speech"] p{
 	text-align: left;
 	text-indent: 0;
 }
 
 [epub|type~="z3998:verse"] p + p,
 [epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:song"] p + p{
+[epub|type~="z3998:song"] p + p,
+[epub|type~="z3998:speech"] p + p{
 	margin-top: 1em;
 }
 
 [epub|type~="z3998:verse"] p > span,
 [epub|type~="z3998:poem"] p > span,
-[epub|type~="z3998:song"] p > span{
+[epub|type~="z3998:song"] p > span,
+[epub|type~="z3998:speech"] p > span{
 	display: block;
 	text-indent: -1em;
 	padding-left: 1em;
@@ -107,7 +110,8 @@ blockquote header [epub|type~="se:letter.dateline"]{
 
 [epub|type~="z3998:verse"] p > span + br,
 [epub|type~="z3998:poem"] p > span + br,
-[epub|type~="z3998:song"] p > span + br{
+[epub|type~="z3998:song"] p > span + br,
+[epub|type~="z3998:speech"] p > span + br{
 	display: none;
 }
 
@@ -152,6 +156,15 @@ p span.i3{
 	text-align: right;
 	width: 20%;
 	font-variant: all-small-caps;
+}
+
+[epub|type~="z3998:stage-direction"]{
+	text-align: right;
+	font-style: italic;
+}
+
+[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"]{
+	font-style: normal;
 }
 
 [epub|type~="rearnote"] ol{
