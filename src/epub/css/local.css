@@ -167,6 +167,11 @@ p span.i3{
 	font-style: normal;
 }
 
+[epub|type~="z3998:dramatis-personae"] [epub|type~="z3998:actor"]{
+	text-align: right;
+	padding-left: 2em;
+}
+
 [epub|type~="rearnote"] ol{
 	list-style-type: upper-roman;
 }
