@@ -115,6 +115,11 @@ blockquote header [epub|type~="se:letter.dateline"]{
 	display: none;
 }
 
+span.elision{
+	margin: .5em;
+	margin-left: 3em;
+}
+
 p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
