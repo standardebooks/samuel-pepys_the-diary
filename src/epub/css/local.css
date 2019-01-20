@@ -31,11 +31,6 @@ figure + p{
 	text-indent: 0;
 }
 
-abbr.name,
-abbr.compass{
-	white-space: nowrap;
-}
-
 abbr.era{
 	font-variant: all-small-caps;
 }
@@ -92,10 +87,7 @@ blockquote header [epub|type~="se:letter.dateline"]{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:verse"] p + p,
-[epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:song"] p + p,
-[epub|type~="z3998:speech"] p + p{
+[epub|type~="z3998:poem"] p + p{
 	margin-top: 1em;
 }
 
