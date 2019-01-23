@@ -40,10 +40,15 @@
 		<meta property="meta-auth" refines="#subject-3">https://www.gutenberg.org/ebooks/4200</meta>
 		<meta property="meta-auth" refines="#subject-4">https://www.gutenberg.org/ebooks/4200</meta>
 		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/4200</meta>
+		<meta property="se:subject">Autobiography</meta>
 		<meta property="se:subject">Nonfiction</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">The diary of a man living in London in the 17th century.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
-		<meta id="long-description" property="se:long-description" refines="#description"> LONGDESCRIPTION </meta>
+		<meta id="long-description" property="se:long-description" refines="#description">
+			&lt;p&gt;Pepys’ &lt;i&gt;Diary&lt;/i&gt; is an incredibly frank decade-long snapshot of the life of an up and coming naval administrator in mid-17th century London. In it he describes everything from battles against the Dutch and the intrigues of court, down to the plays he saw, his marital infidelities and the quality of the meat provided for his supper. His observations have proved invaluable in establishing an accurate record of the daily life of the people of London of that period.&lt;/p&gt;
+			&lt;p&gt;Pepys eventually stopped writing his diary due to progressively worse eyesight, a condition he feared. He did consider employing an amanuensis to transcribe future entries for him, but worried that the content he wanted written would be too personal. Luckily for Pepys, his eyesight difficulties never progressed to blindness and he was able to go on to become both a Member of Parliament and the President of the Royal Society.&lt;/p&gt;
+			&lt;p&gt;After Pepys’ death he left his large library of books and manuscripts first to his nephew, which was then passed on to Magdalene College, Cambridge, where it survives to this day. The diary, originally written in a shorthand, was included in this trove and was eventually deciphered in the early 19th century, and published by Lord Baybrooke in 1825. This early release censored large amounts of the text, and it was only in the 1970s that an uncensored version was published. Presented here is the 1893 edition, which restores the majority of the originally censored content but omits “a few passages which cannot possibly be printed”. The rich collection of endnotes serve to further illustrate the lives of the people Pepys meets and the state of Englands’s internal politics and international relations at the time.&lt;/p&gt;
+		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/4200</dc:source>
@@ -55,7 +60,11 @@
 		<dc:source>https://archive.org/details/diaryofsamuelpep06pepy</dc:source>
 		<dc:source>https://archive.org/details/diaryofsamuelpep07pepy</dc:source>
 		<dc:source>https://archive.org/details/diaryofsamuelpep08pepy</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">
+			• Volumes 9 and 10 (appendix and Pepysiana) of the original series have been omitted from the production due to time constraints.
+			• Each diary entry has a time element to start. The datetime attribute is ISO8601 compliant (Gregorian), but the actual dates Pepys uses are Julian, so they don’t appear to match. This is correct.
+			• This date is copied into the `entry-x` id attribute for each diary entry. Unfortunately, this causes linting to fail with leading 0 errors. For this production we can ignore it.
+		</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Samuel_Pepys#The_diary</meta>
