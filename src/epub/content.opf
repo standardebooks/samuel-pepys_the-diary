@@ -81,6 +81,7 @@
 		<meta property="role" refines="#editor-1" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="annotator-1">Richard Griffin</dc:contributor>
+		<meta property="display-seq" refines="#annotator-1">0</meta>
 		<meta property="file-as" refines="#annotator-1">Griffin, Richard</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#annotator-1">https://en.wikipedia.org/wiki/Richard_Griffin,_3rd_Baron_Braybrooke</meta>
 		<meta property="se:url.authority.nacoaf" refines="#annotator-1">https://id.loc.gov/authorities/names/n50014973</meta>
