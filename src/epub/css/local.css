@@ -60,7 +60,8 @@ footer{
 	font-variant: small-caps;
 }
 
-article[epub|type~="z3998:diary-entry"] + article[epub|type~="z3998:diary-entry"]{
+article[epub|type~="z3998:diary-entry"] + article[epub|type~="z3998:diary-entry"],
+article[epub|type~="z3998:diary-entry"] > section{
 	margin-top: .5em;
 }
 
