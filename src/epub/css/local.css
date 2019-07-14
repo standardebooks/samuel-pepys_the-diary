@@ -207,6 +207,7 @@ p span.i3{
 
 .ledger td{
 	padding: .25em 1em .25em 0;
+	vertical-align: bottom;
 }
 
 .ledger td:last-child{
