@@ -35,10 +35,6 @@ abbr.era{
 	font-variant: all-small-caps;
 }
 
-abbr.currency{
-	font-style: italic;
-}
-
 blockquote header{
 	margin-bottom: 1em;
 }
