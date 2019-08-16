@@ -182,37 +182,37 @@ p span.i3{
 	padding-left: 1em;
 }
 
-.epitaph  p > span + br{
+.epitaph p > span + br{
 	display: none;
 }
 
-.family-tree{
+.epitaph > div{
 	display: flex;
 	justify-content: space-evenly;
 }
 
-.heraldry{
+#introduction .epitaph > p:last-child{
 	margin-top: .5em;
 }
 
 /* Ledger, in chapter 82 */
-.ledger{
+#chapter-82 table{
 	width: 100%;
 	margin: 1em 0;
 }
 
-.ledger td{
+#chapter-82 td{
 	padding: .25em 1em .25em 0;
 	vertical-align: bottom;
 }
 
-.ledger td:last-child{
+#chapter-82 td:last-child{
 	padding-right: 0;
 	text-align: right;
 	font-variant-numeric: tabular-nums;
 }
 
-.ledger tbody + tbody > tr:first-child > td:last-child,
-.ledger .subtotal td:last-child{
+#chapter-82 tbody + tbody > tr:first-child > td:last-child,
+#chapter-82 .subtotal td:last-child{
 	border-top: 1px solid;
 }
