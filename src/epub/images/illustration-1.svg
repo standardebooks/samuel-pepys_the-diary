@@ -1,38 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 604 376">
 	<title>Edward Montagu, Lord Chief Justice, temp. Henry VIII, died 1557. Son of Edward Montagu: Edward Montagu, Knt., “A worthy patriot in the reign of Queen Elizabeth,” died 1602. Children of Edward Montagu, Knt.: Edwd. Montagu, Knt., First Lord Montagu of Boughton. Walter, Knt. Henry, Lord Montagu, First Earl of Manchester. Charles, Knt. James, Bishop of Bath 1605, and Winchester 1616. Sidney, Knt., M.P. for Huntingdon in the Long Parliament, whence he was expelled. Mar. Paulina, daughter of John Pepys, of Cottenham, Camb., died 1644. Children of Sidney, Knt.: Henry, drowned at sea. Edward, a distinguished Parliamentary Captain, M.P. for Huntingdon, Admiral. First Earl of Sandwich, died 1672. Elizabeth, mar. Sir Gilbert Pyckering, of Titchmarsh.</title>
-	<path stroke="#000" stroke-linecap="square" d="M77.04 84.74H544.8M247.72 263.27h302.8M544.8 84.53v4.99m6 169v5m-13 .27v5m-139-5.26v4.99m-151-5v5m207-184v5m-88-5v5m-63-11.73v6.73m0-41.73v8.6M176.6 84.53v4.99m89.2-5v5m-189-5v5"/>
+	<path d="M77.04 84.74H544.8M247.72 263.27h302.8M544.8 84.53v4.99m6 169v5m-13 .27v5m-139-5.26v4.99m-151-5v5m207-184v5m-88-5v5m-63-11.73v6.73m0-41.73v8.6M176.6 84.53v4.99m89.2-5v5m-189-5v5" stroke="#000" stroke-linecap="square"/>
 	<text font-size="13" font-weight="400" letter-spacing="1">
-		<tspan x="240.52" y="23">E<tspan font-size="10.5">DWARD</tspan> M<tspan font-size="10.5">ONTAGU</tspan></tspan> <tspan x="151" y="37">Lord Chief Justice, temp. Henry VIII, died 1557.</tspan>
+		<tspan x="240.52" y="23">E<tspan font-size="10.5">DWARD</tspan> M<tspan font-size="10.5">ONTAGU</tspan></tspan>
+		<tspan x="151" y="37">Lord Chief Justice, temp. Henry VIII, died 1557.</tspan>
 	</text>
 	<text font-size="12" font-weight="400" letter-spacing=".92">
-		<tspan x="228.23" y="61">E<tspan font-size="10">DWARD</tspan> M<tspan font-size="10">ONTAGU</tspan>, Knt.,</tspan> <tspan x="127" y="74">“A worthy patriot in the reign of Queen Elizabeth,” died 1602.</tspan>
+		<tspan x="228.23" y="61">E<tspan font-size="10">DWARD</tspan> M<tspan font-size="10">ONTAGU</tspan>, Knt.,</tspan>
+		<tspan x="127" y="74">“A worthy patriot in the reign of Queen Elizabeth,” died 1602.</tspan>
 	</text>
 	<text font-size="12" font-weight="400" letter-spacing=".92">
-		<tspan x="16" y="99">E<tspan font-size="10">DWD</tspan>. M<tspan font-size="10">ONTAGU</tspan>,</tspan> <tspan x="21.94" y="112">Knt., First Lord</tspan> <tspan x="35.38" y="125">Montagu of</tspan> <tspan x="38.29" y="138">Boughton.</tspan>
+		<tspan x="16" y="99">E<tspan font-size="10">DWD</tspan>. M<tspan font-size="10">ONTAGU</tspan>,</tspan>
+		<tspan x="21.94" y="112">Knt., First Lord</tspan>
+		<tspan x="35.38" y="125">Montagu of</tspan>
+		<tspan x="38.29" y="138">Boughton.</tspan>
 	</text>
 	<text font-size="12" font-weight="400" letter-spacing=".92">
-		<tspan x="153" y="99">W<tspan font-size="10">ALTER</tspan>,</tspan> <tspan x="166.05" y="112">Knt.</tspan>
+		<tspan x="153" y="99">W<tspan font-size="10">ALTER</tspan>,</tspan>
+		<tspan x="166.05" y="112">Knt.</tspan>
 	</text>
 	<text font-size="12" font-weight="400" letter-spacing=".92">
-		<tspan x="226" y="99"><tspan>H<tspan font-size="10">ENRY</tspan>,</tspan> Lord</tspan> <tspan x="236.53" y="112">Montagu,</tspan> <tspan x="229.12" y="125">First Earl of</tspan> <tspan x="229.11" y="138">Manchester.</tspan>
+		<tspan x="226" y="99"><tspan>H<tspan font-size="10">ENRY</tspan>,</tspan> Lord</tspan>
+		<tspan x="236.53" y="112">Montagu,</tspan>
+		<tspan x="229.12" y="125">First Earl of</tspan>
+		<tspan x="229.11" y="138">Manchester.</tspan>
 	</text>
 	<text font-size="12" font-weight="400" letter-spacing=".92">
-		<tspan x="337.5" y="99">C<tspan font-size="10">HARLES</tspan>,</tspan> <tspan x="353.21" y="112">Knt.</tspan>
+		<tspan x="337.5" y="99">C<tspan font-size="10">HARLES</tspan>,</tspan>
+		<tspan x="353.21" y="112">Knt.</tspan>
 	</text>
 	<text font-size="12" font-weight="400" letter-spacing=".92">
-		<tspan x="427.84" y="99">J<tspan font-size="10">AMES</tspan>,</tspan> <tspan x="419.75" y="112">Bishop of</tspan> <tspan x="417.44" y="125">Bath 1605,</tspan> <tspan x="437.07" y="138">and</tspan> <tspan x="415" y="151">Winchester</tspan> <tspan x="433.84" y="164">1616.</tspan>
+		<tspan x="427.84" y="99">J<tspan font-size="10">AMES</tspan>,</tspan>
+		<tspan x="419.75" y="112">Bishop of</tspan>
+		<tspan x="417.44" y="125">Bath 1605,</tspan>
+		<tspan x="437.07" y="138">and</tspan>
+		<tspan x="415" y="151">Winchester</tspan>
+		<tspan x="433.84" y="164">1616.</tspan>
 	</text>
 	<text font-size="12" font-weight="400" letter-spacing=".92">
-		<tspan x="507.82" y="99">S<tspan font-size="10">IDNEY</tspan>, Knt.</tspan> <tspan x="504.5" y="112">M.P. for Hun-</tspan> <tspan x="505.3" y="125">tingdon in the</tspan> <tspan x="509.47" y="138">Long Parlia-</tspan> <tspan x="506.63" y="151">ment, whence</tspan> <tspan x="516.65" y="164">he was ex-</tspan> <tspan x="509.23" y="177">pelled. M<tspan font-size="10">AR</tspan>.</tspan> <tspan x="518.69" y="190">P<tspan font-size="10">AULINA</tspan>,</tspan> <tspan x="512.73" y="203">daughter of</tspan> <tspan x="511.78" y="216">John Pepys,</tspan> <tspan x="504.5" y="229">of Cottenham,</tspan> <tspan x="524.82" y="242">Camb.,</tspan> <tspan x="516.25" y="255">died 1644.</tspan>
+		<tspan x="507.82" y="99">S<tspan font-size="10">IDNEY</tspan>, Knt.</tspan>
+		<tspan x="504.5" y="112">M.P. for Hun-</tspan>
+		<tspan x="505.3" y="125">tingdon in the</tspan>
+		<tspan x="509.47" y="138">Long Parlia-</tspan>
+		<tspan x="506.63" y="151">ment, whence</tspan>
+		<tspan x="516.65" y="164">he was ex-</tspan>
+		<tspan x="509.23" y="177">pelled. M<tspan font-size="10">AR</tspan>.</tspan>
+		<tspan x="518.69" y="190">P<tspan font-size="10">AULINA</tspan>,</tspan>
+		<tspan x="512.73" y="203">daughter of</tspan>
+		<tspan x="511.78" y="216">John Pepys,</tspan>
+		<tspan x="504.5" y="229">of Cottenham,</tspan>
+		<tspan x="524.82" y="242">Camb.,</tspan>
+		<tspan x="516.25" y="255">died 1644.</tspan>
 	</text>
 	<text font-size="12" font-weight="400" letter-spacing=".92">
-		<tspan x="222.62" y="279">H<tspan font-size="10">ENRY</tspan>,</tspan> <tspan x="200" y="292">drowned at sea.</tspan>
+		<tspan x="222.62" y="279">H<tspan font-size="10">ENRY</tspan>,</tspan>
+		<tspan x="200" y="292">drowned at sea.</tspan>
 	</text>
 	<text font-size="12" font-weight="400" letter-spacing=".92">
-		<tspan x="370.38" y="279">E<tspan font-size="10">DWARD</tspan>,</tspan> <tspan x="353.67" y="292">a distinguished</tspan> <tspan x="330.44" y="305">Parliamentary Captain.</tspan> <tspan x="333.65" y="318">M.P. for Huntingdon,</tspan> <tspan x="373.25" y="331">Admiral,</tspan> <tspan x="330" y="344" font-style="italic">First Earl of Sandwich,</tspan> <tspan x="369.1" y="357">died 1672.</tspan>
+		<tspan x="370.38" y="279">E<tspan font-size="10">DWARD</tspan>,</tspan>
+		<tspan x="353.67" y="292">a distinguished</tspan>
+		<tspan x="330.44" y="305">Parliamentary Captain.</tspan>
+		<tspan x="333.65" y="318">M.P. for Huntingdon,</tspan>
+		<tspan x="373.25" y="331">Admiral,</tspan>
+		<tspan font-style="italic" x="330" y="344">First Earl of Sandwich,</tspan>
+		<tspan x="369.1" y="357">died 1672.</tspan>
 	</text>
 	<text font-size="12" font-weight="400" letter-spacing=".92">
-		<tspan x="505.98" y="279">E<tspan font-size="10">LIZABETH</tspan>,</tspan> <tspan x="517" y="292">mar. Sir</tspan> <tspan x="496" y="305">Gilbert Pycker-</tspan> <tspan x="521.86" y="318">ing, of</tspan> <tspan x="505.11" y="331">Titchmarsh.</tspan>
+		<tspan x="505.98" y="279">E<tspan font-size="10">LIZABETH</tspan>,</tspan>
+		<tspan x="517" y="292">mar. Sir</tspan>
+		<tspan x="496" y="305">Gilbert Pycker-</tspan>
+		<tspan x="521.86" y="318">ing, of</tspan>
+		<tspan x="505.11" y="331">Titchmarsh.</tspan>
 	</text>
 </svg>
