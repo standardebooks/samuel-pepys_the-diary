@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/samuel-pepys/the-diary</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2019-08-21T18:40:45Z</dc:date>
+		<meta property="dcterms:modified">2019-08-21T18:40:45Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -48,7 +48,7 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">The diary of a man living in London in the 17th century.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Pepys’ &lt;i&gt;Diary&lt;/i&gt; is an incredibly frank decade-long snapshot of the life of an up and coming naval administrator in mid-17th century London. In it he describes everything from battles against the Dutch and the intrigues of court, down to the plays he saw, his marital infidelities and the quality of the meat provided for his supper. His observations have proved invaluable in establishing an accurate record of the daily life of the people of London of that period.&lt;/p&gt;
+			&lt;p&gt;Pepys’ &lt;i&gt;Diary&lt;/i&gt; is an incredibly frank decade-long snapshot of the life of an up and coming naval administrator in mid-17th century London. In it he describes everything from battles against the Dutch and the intrigues of court, down to the plays he saw, his marital infidelities, and the quality of the meat provided for his supper. His observations have proved invaluable in establishing an accurate record of the daily life of the people of London of that period.&lt;/p&gt;
 			&lt;p&gt;Pepys eventually stopped writing his diary due to progressively worse eyesight, a condition he feared. He did consider employing an amanuensis to transcribe future entries for him, but worried that the content he wanted written would be too personal. Luckily for Pepys, his eyesight difficulties never progressed to blindness and he was able to go on to become both a Member of Parliament and the President of the Royal Society.&lt;/p&gt;
 			&lt;p&gt;After Pepys’ death he left his large library of books and manuscripts first to his nephew, which was then passed on to Magdalene College, Cambridge, where it survives to this day. The diary, originally written in a shorthand, was included in this trove and was eventually deciphered in the early 19th century, and published by Lord Baybrooke in 1825. This early release censored large amounts of the text, and it was only in the 1970s that an uncensored version was published. Presented here is the 1893 edition, which restores the majority of the originally censored content but omits “a few passages which cannot possibly be printed.” The rich collection of endnotes serve to further illustrate the lives of the people Pepys meets and the state of Englands’s internal politics and international relations at the time.&lt;/p&gt;
 		</meta>
@@ -67,8 +67,8 @@
 			• Each diary entry has a time element to start. The datetime attribute is ISO8601 compliant (Gregorian), but the actual dates Pepys uses are Julian, so they don’t appear to match. This is correct.
 			• This date is copied into the `entry-x` id attribute for each diary entry. Unfortunately, this causes linting to fail with leading 0 errors, so we remove those for the id.
 		</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">1209950</meta>
+		<meta property="se:reading-ease.flesch">70.57</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Samuel_Pepys#The_diary</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/samuel-pepys_the-diary</meta>
 		<dc:creator id="author">Samuel Pepys</dc:creator>
@@ -111,6 +111,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">trc</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://rightword.com.au/david.php</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
