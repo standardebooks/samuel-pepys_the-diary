@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="endnotes.xhtml">
+		<ignore>
+			<code>t-007</code>
+			<reason>Text following ampersands is not an abbreviation so no-break spaces are not needed.</reason>
+		</ignore>
+		<ignore>
+			<code>t-008</code>
+			<reason>Text following ampersands is not an abbreviation so no-break spaces are not needed.</reason>
+		</ignore>
+	</file>
+	<file path="introduction.xhtml">
+		<ignore>
+			<code>t-007</code>
+			<reason>Ampersands are part of an old-timey style in quotation and so no-break spaces are not needed.</reason>
+		</ignore>
+		<ignore>
+			<code>t-008</code>
+			<reason>Ampersands are part of an old-timey style in quotation and so no-break spaces are not needed.</reason>
+		</ignore>
+		<ignore>
+			<code>t-011</code>
+			<reason>Matched text is a signature to a letter and does not require ending punctuation.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
