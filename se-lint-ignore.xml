@@ -2,6 +2,10 @@
 <se-lint-ignore>
 	<file path="endnotes.xhtml">
 		<ignore>
+			<code>s-005</code>
+			<reason>Nested blockquotes are correct in this instance, as they are quotations from a larger quotation with a single source.</reason>
+		</ignore>
+		<ignore>
 			<code>t-007</code>
 			<reason>Text following ampersands is not an abbreviation so no-break spaces are not needed.</reason>
 		</ignore>

@@ -220,3 +220,8 @@ p span.i3{
 #chapter-82 .subtotal td:last-child{
 	border-top: 1px solid;
 }
+
+#endnotes blockquote > blockquote{
+	margin-left: 0;
+	margin-right: 0;
+}
