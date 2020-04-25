@@ -84,10 +84,6 @@ blockquote header [epub|type~="se:letter.dateline"]{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:poem"] p + p{
-	margin-top: 1em;
-}
-
 [epub|type~="z3998:verse"] p > span,
 [epub|type~="z3998:poem"] p > span,
 [epub|type~="z3998:song"] p > span,
