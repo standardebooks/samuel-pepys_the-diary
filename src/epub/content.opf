@@ -62,11 +62,9 @@
 		<dc:source>https://archive.org/details/diaryofsamuelpep06pepy</dc:source>
 		<dc:source>https://archive.org/details/diaryofsamuelpep07pepy</dc:source>
 		<dc:source>https://archive.org/details/diaryofsamuelpep08pepy</dc:source>
-		<meta property="se:production-notes">
-			• Volumes 9 and 10 (appendix and Pepysiana) of the original series have been omitted from the production due to time constraints.
+		<meta property="se:production-notes">• Volumes 9 and 10 (appendix and Pepysiana) of the original series have been omitted from the production due to time constraints.
 			• Each diary entry has a time element to start. The datetime attribute is ISO8601 compliant (Gregorian), but the actual dates Pepys uses are Julian, so they don’t appear to match. This is correct.
-			• This date is copied into the `entry-x` id attribute for each diary entry. Unfortunately, this causes linting to fail with leading 0 errors, so we remove those for the id.
-		</meta>
+			• This date is copied into the `entry-x` id attribute for each diary entry. Unfortunately, this causes linting to fail with leading 0 errors, so we remove those for the id.</meta>
 		<meta property="se:word-count">1209949</meta>
 		<meta property="se:reading-ease.flesch">70.57</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Samuel_Pepys#The_diary</meta>
