@@ -28,4 +28,8 @@
 			<reason>Matched text is a signature to a letter and does not require ending punctuation.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-105.xhtml">
+		<code>t-042</code>
+		<reason>Text follows the print edition.</reason>
+	</file>
 </se-lint-ignore>
