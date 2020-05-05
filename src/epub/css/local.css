@@ -221,3 +221,7 @@ p span.i3{
 	margin-left: 0;
 	margin-right: 0;
 }
+
+#foreword header p + p{
+	margin-top: 1em;
+}
