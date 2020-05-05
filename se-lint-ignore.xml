@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="chapter-105.xhtml">
+		<ignore>
+			<code>t-042</code>
+			<reason>Text follows the print edition.</reason>
+		</ignore>
+	</file>
 	<file path="endnotes.xhtml">
 		<ignore>
 			<code>s-005</code>
@@ -27,9 +33,5 @@
 			<code>t-011</code>
 			<reason>Matched text is a signature to a letter and does not require ending punctuation.</reason>
 		</ignore>
-	</file>
-	<file path="chapter-105.xhtml">
-		<code>t-042</code>
-		<reason>Text follows the print edition.</reason>
 	</file>
 </se-lint-ignore>
