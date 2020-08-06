@@ -11,24 +11,8 @@
 			<code>s-005</code>
 			<reason>Nested blockquotes are correct in this instance, as they are quotations from a larger quotation with a single source.</reason>
 		</ignore>
-		<ignore>
-			<code>t-007</code>
-			<reason>Text following ampersands is not an abbreviation so no-break spaces are not needed.</reason>
-		</ignore>
-		<ignore>
-			<code>t-008</code>
-			<reason>Text following ampersands is not an abbreviation so no-break spaces are not needed.</reason>
-		</ignore>
 	</file>
 	<file path="introduction.xhtml">
-		<ignore>
-			<code>t-007</code>
-			<reason>Ampersands are part of an old-timey style in quotation and so no-break spaces are not needed.</reason>
-		</ignore>
-		<ignore>
-			<code>t-008</code>
-			<reason>Ampersands are part of an old-timey style in quotation and so no-break spaces are not needed.</reason>
-		</ignore>
 		<ignore>
 			<code>t-011</code>
 			<reason>Matched text is a signature to a letter and does not require ending punctuation.</reason>
