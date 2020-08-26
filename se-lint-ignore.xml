@@ -27,6 +27,10 @@
 			<code>t-007</code>
 			<reason>The possessive s is part of the book name.</reason>
 		</ignore>
+		<ignore>
+			<code>t-017</code>
+			<reason>Matched text is a complete clause when combined with the following line.</reason>
+		</ignore>
 	</file>
 	<file path="introduction.xhtml">
 		<ignore>
