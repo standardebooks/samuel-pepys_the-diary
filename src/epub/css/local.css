@@ -226,3 +226,7 @@ p span.i3{
 #foreword header p + p{
 	margin-top: 1em;
 }
+
+#note-21 table tbody td + td ~ td{
+	text-align: right;
+}
