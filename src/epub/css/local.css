@@ -227,6 +227,10 @@ p span.i3{
 	margin-top: 1em;
 }
 
+#note-21 table{
+	margin: 1em;
+}
+
 #note-21 table tbody td + td ~ td{
 	text-align: right;
 }
