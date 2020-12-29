@@ -62,7 +62,7 @@ article[epub|type~="z3998:diary-entry"] > section{
 }
 
 blockquote header [epub|type~="se:letter.dateline"]{
-	text-align: left;
+	text-align: initial;
 	font-style: italic;
 }
 
@@ -72,7 +72,7 @@ blockquote header [epub|type~="se:letter.dateline"]{
 
 [epub|type~="z3998:postscript"]{
 	margin-top: 1em;
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
@@ -80,7 +80,7 @@ blockquote header [epub|type~="se:letter.dateline"]{
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:speech"] p{
-	text-align: left;
+	text-align: initial;
 	text-indent: 0;
 }
 
