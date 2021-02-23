@@ -85,8 +85,8 @@ blockquote header [epub|type~="se:letter.dateline"]{
 [epub|type~="z3998:song"] p > span,
 [epub|type~="z3998:speech"] p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 [epub|type~="z3998:verse"] p > span + br,
@@ -102,13 +102,13 @@ span.elision{
 }
 
 p span.i1{
-	text-indent: -1em;
 	padding-left: 2em;
+	text-indent: -1em;
 }
 
 p span.i3{
-	text-indent: -1em;
 	padding-left: 4em;
+	text-indent: -1em;
 }
 
 table[epub|type~="z3998:drama"]{
@@ -172,8 +172,8 @@ table[epub|type~="z3998:drama"]{
 
 .epitaph p > span{
 	display: block;
-	text-indent: -1em;
 	padding-left: 1em;
+	text-indent: -1em;
 }
 
 .epitaph p > span + br{
