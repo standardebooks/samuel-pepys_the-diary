@@ -31,6 +31,10 @@
 			<code>t-017</code>
 			<reason>Matched text is a complete clause when combined with the following line.</reason>
 		</ignore>
+		<ignore>
+			<code>t-056</code>
+			<reason>Matched text are actual Latin-flavored ordinals.</reason>
+		</ignore>
 	</file>
 	<file path="introduction.xhtml">
 		<ignore>
