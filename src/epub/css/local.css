@@ -12,12 +12,8 @@ sub{
 }
 
 figure{
+	break-inside: avoid;
 	margin: 1em auto;
-	text-align: center;
-}
-
-figure header p{
-	font-variant: small-caps;
 	text-align: center;
 }
 
@@ -25,6 +21,11 @@ figure img{
 	display: block;
 	margin: auto;
 	max-width: 100%;
+}
+
+figure header p{
+	font-variant: small-caps;
+	text-align: center;
 }
 
 abbr.era{
