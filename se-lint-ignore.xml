@@ -35,10 +35,6 @@
 			<code>t-042</code>
 			<reason>Matched text is as-is in print.</reason>
 		</ignore>
-		<ignore>
-			<code>t-056</code>
-			<reason>Matched text are actual Latin-flavored ordinals.</reason>
-		</ignore>
 	</file>
 	<file path="introduction.xhtml">
 		<ignore>
