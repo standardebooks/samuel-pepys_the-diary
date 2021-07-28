@@ -35,6 +35,10 @@
 			<code>t-042</code>
 			<reason>Matched text is as-is in print.</reason>
 		</ignore>
+		<ignore>
+			<code>t-064</code>
+			<reason>Matched titles are correctly titlecased</reason>
+		</ignore>
 	</file>
 	<file path="introduction.xhtml">
 		<ignore>
