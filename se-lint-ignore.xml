@@ -12,12 +12,6 @@
 			<reason>The possessive s is part of the play name.</reason>
 		</ignore>
 	</file>
-	<file path="chapter-105.xhtml">
-		<ignore>
-			<code>t-042</code>
-			<reason>Text follows the print edition.</reason>
-		</ignore>
-	</file>
 	<file path="endnotes.xhtml">
 		<ignore>
 			<code>s-005</code>
