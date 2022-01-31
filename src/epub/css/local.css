@@ -7,8 +7,8 @@ i em{
 
 sup,
 sub{
-	line-height: 1;
 	font-size: .75em;
+	line-height: 1;
 }
 
 figure{
@@ -59,8 +59,8 @@ article[epub|type~="z3998:diary-entry"] > section{
 }
 
 blockquote header [epub|type~="se:letter.dateline"]{
-	text-align: initial;
 	font-style: italic;
+	text-align: initial;
 }
 
 [epub|type~="z3998:recipient"]{
@@ -127,8 +127,8 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:drama"] td{
-	vertical-align: top;
 	padding: .5em;
+	vertical-align: top;
 }
 
 [epub|type~="z3998:drama"] td:last-child{
@@ -140,16 +140,16 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:drama"] td[epub|type~="z3998:persona"]{
+	font-variant: all-small-caps;
 	hyphens: none;
 	-epub-hyphens: none;
 	text-align: right;
 	width: 20%;
-	font-variant: all-small-caps;
 }
 
 [epub|type~="z3998:stage-direction"]{
-	text-align: right;
 	font-style: italic;
+	text-align: right;
 }
 
 [epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"]{
@@ -157,8 +157,8 @@ table[epub|type~="z3998:drama"]{
 }
 
 [epub|type~="z3998:dramatis-personae"] [epub|type~="z3998:actor"]{
-	text-align: right;
 	padding-left: 2em;
+	text-align: right;
 }
 
 [epub|type~="endnote"] ol{
@@ -196,8 +196,8 @@ table[epub|type~="z3998:drama"]{
 
 /* Ledger, in chapter 82 */
 #chapter-82 table{
-	width: 100%;
 	margin: 1em 0;
+	width: 100%;
 }
 
 #chapter-82 td{
@@ -206,9 +206,9 @@ table[epub|type~="z3998:drama"]{
 }
 
 #chapter-82 td:last-child{
+	font-variant-numeric: tabular-nums;
 	padding-right: 0;
 	text-align: right;
-	font-variant-numeric: tabular-nums;
 }
 
 #chapter-82 tbody + tbody > tr:first-child > td:last-child,
