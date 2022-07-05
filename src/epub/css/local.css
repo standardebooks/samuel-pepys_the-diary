@@ -226,8 +226,8 @@ table[epub|type~="z3998:drama"]{
 }
 
 #note-21 table{
-	margin: 1em;
 	font-variant-numeric: tabular-nums;
+	margin: 1em;
 }
 
 #note-21 table tbody td + td ~ td{
