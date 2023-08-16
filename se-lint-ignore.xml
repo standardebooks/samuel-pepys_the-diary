@@ -26,12 +26,12 @@
 			<reason>Matched text is a complete clause when combined with the following line.</reason>
 		</ignore>
 		<ignore>
-			<code>t-042</code>
-			<reason>Matched text is as-is in print.</reason>
-		</ignore>
-		<ignore>
 			<code>t-064</code>
 			<reason>Matched titles are correctly titlecased</reason>
+		</ignore>
+		<ignore>
+			<code>y-022</code>
+			<reason>Matched text is as-is in print.</reason>
 		</ignore>
 	</file>
 	<file path="introduction.xhtml">
