@@ -91,6 +91,7 @@
 		<meta property="role" refines="#editor-1" scheme="marc:relators">waw</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">win</meta>
+		<meta property="role" refines="#editor-1" scheme="marc:relators">wfw</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">edt</meta>
 		<meta property="role" refines="#editor-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="annotator-1">Richard Griffin</dc:contributor>
