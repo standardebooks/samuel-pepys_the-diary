@@ -1,42 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
 	<file path="chapter-48.xhtml">
-		<ignore>
-			<code>t-007</code>
+		<ignore code="t-007">
 			<reason>The possessive s is part of the book name.</reason>
 		</ignore>
 	</file>
 	<file path="chapter-94.xhtml">
-		<ignore>
-			<code>t-007</code>
+		<ignore code="t-007">
 			<reason>The possessive s is part of the play name.</reason>
 		</ignore>
 	</file>
 	<file path="endnotes.xhtml">
-		<ignore>
-			<code>s-005</code>
+		<ignore code="s-005">
 			<reason>Nested blockquotes are correct in this instance, as they are quotations from a larger quotation with a single source.</reason>
 		</ignore>
-		<ignore>
-			<code>t-007</code>
+		<ignore code="t-007">
 			<reason>The possessive s is part of the book name.</reason>
 		</ignore>
-		<ignore>
-			<code>t-017</code>
+		<ignore code="t-017">
 			<reason>Matched text is a complete clause when combined with the following line.</reason>
 		</ignore>
-		<ignore>
-			<code>t-064</code>
+		<ignore code="t-064">
 			<reason>Matched titles are correctly titlecased</reason>
 		</ignore>
-		<ignore>
-			<code>y-022</code>
+		<ignore code="y-022">
 			<reason>Matched text is as-is in print.</reason>
 		</ignore>
 	</file>
 	<file path="introduction.xhtml">
-		<ignore>
-			<code>t-011</code>
+		<ignore code="t-011">
 			<reason>Matched text is a signature to a letter and does not require ending punctuation.</reason>
 		</ignore>
 	</file>
