@@ -19,6 +19,10 @@
 			<line>8218</line>
 			<reason>Nested blockquotes are correct in this instance, as they are quotations from a larger quotation with a single source.</reason>
 		</ignore>
+		<ignore code="t-005">
+			<line>1865</line>
+			<reason>Matched text is not a newspaper.</reason>
+		</ignore>
 		<ignore code="t-007">
 			<line>11614</line>
 			<reason>The possessive s is part of the book name.</reason>
