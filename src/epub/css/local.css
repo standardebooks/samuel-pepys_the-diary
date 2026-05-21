@@ -160,7 +160,7 @@ table[epub|type~="z3998:drama"]{
 	text-align: right;
 }
 
-[epub|type~="endnote"] ol{
+[epub|type~="endnotes"] > ol > li ol{
 	list-style-type: upper-roman;
 }
 
