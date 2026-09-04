@@ -31,11 +31,11 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Diary</dc:title>
 		<meta property="file-as" refines="#title">Diary, The</meta>
-		<dc:subject id="subject-1">Pepys, Samuel, 1633-1703 -- Diaries</dc:subject>
-		<dc:subject id="subject-2">Cabinet officers -- Great Britain -- Diaries</dc:subject>
-		<dc:subject id="subject-3">Diarists -- Great Britain -- Diaries</dc:subject>
-		<dc:subject id="subject-4">Great Britain -- Social life and customs -- 17th century -- Sources</dc:subject>
-		<dc:subject id="subject-5">Great Britain -- History -- Charles II, 1660-1685 -- Sources</dc:subject>
+		<dc:subject id="subject-1">Pepys, Samuel, 1633-1703--Diaries</dc:subject>
+		<dc:subject id="subject-2">Cabinet officers--Great Britain--Diaries</dc:subject>
+		<dc:subject id="subject-3">Diarists--Great Britain--Diaries</dc:subject>
+		<dc:subject id="subject-4">Great Britain--Social life and customs--17th century--Sources</dc:subject>
+		<dc:subject id="subject-5">Great Britain--History--Charles II, 1660-1685--Sources</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
