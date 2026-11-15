@@ -180,9 +180,11 @@ table[epub|type~="z3998:drama"]{
 	display: none;
 }
 
-.epitaph > div{
-	display: flex;
-	justify-content: space-evenly;
+@supports(display: flex){
+	.epitaph > div{
+		display: flex;
+		justify-content: space-evenly;
+	}
 }
 
 #introduction .epitaph > p:last-child{
